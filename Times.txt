@@ -1,0 +1,10 @@
+The time it took to render at 128 samples.
+
+Orinigal: 2m:14s
+OpenMP: 18s
+OpenMP + Vectorization: 16s
+MPI divide image into 6 parts: 1m:48s (smallptMPI)
+MPI divide image into single rows: 1m:32s (smallptMPI2)
+MPI with 6 parts division + OpenMP: 19s
+OpenCL: 0.46s
+Pthreads: 30s
